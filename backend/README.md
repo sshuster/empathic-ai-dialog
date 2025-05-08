@@ -1,30 +1,27 @@
 
-# Flask & SQLite Backend
+# Node.js & SQLite Backend
 
-This is a simple Flask API backend with SQLite database integration for the Empathic AI Customer Personas application.
+This is a Node.js API backend with SQLite database integration for the Empathic AI Customer Personas application.
 
 ## Setup Instructions
 
-1. Create a virtual environment:
+1. Make sure you have Node.js 14.x installed:
 ```
-python -m venv venv
-```
-
-2. Activate the virtual environment:
-- On Windows: `venv\Scripts\activate`
-- On macOS/Linux: `source venv/bin/activate`
-
-3. Install dependencies:
-```
-pip install -r requirements.txt
+node --version
 ```
 
-4. Run the Flask application:
+2. Install dependencies:
 ```
-python app.py
+cd backend
+npm install
 ```
 
-The server will start at http://127.0.0.1:5000/
+3. Run the Node.js application:
+```
+npm start
+```
+
+The server will start at http://localhost:5000/
 
 ## API Endpoints
 

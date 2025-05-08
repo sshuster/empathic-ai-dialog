@@ -1,0 +1,19 @@
+
+{
+  "name": "empathic-ai-backend",
+  "version": "1.0.0",
+  "description": "Node.js & SQLite Backend for Empathic AI Customer Personas",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "sqlite3": "^5.0.2",
+    "cors": "^2.8.5",
+    "uuid": "^8.3.2"
+  },
+  "engines": {
+    "node": "14.x"
+  }
+}

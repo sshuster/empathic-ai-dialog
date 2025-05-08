@@ -1,3 +1,8 @@
 
-flask==2.2.3
-flask-cors==3.0.10
+# Node.js Backend Dependencies
+# These will be installed by the demo script
+
+express
+sqlite3
+cors
+uuid
