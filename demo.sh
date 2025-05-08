@@ -29,3 +29,4 @@ npm install
 echo "Starting application..."
 npm run dev & 
 cd backend && npm start
+

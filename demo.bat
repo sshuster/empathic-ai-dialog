@@ -20,3 +20,4 @@ REM Run both frontend and backend
 echo Starting application...
 start cmd /k "npm run dev"
 start cmd /k "cd backend && npm start"
+
